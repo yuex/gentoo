@@ -1,0 +1,32 @@
+# required by kde-apps/kdebase-runtime-meta-16.04.3::gentoo
+# required by kde-apps/kdecore-meta-16.08.3::gentoo[-minimal]
+# required by kde-apps/kde-apps-meta-16.08.3::gentoo
+# required by kde-apps-meta (argument)
+>=kde-apps/solid-runtime-16.04.3 -bluetooth
+# required by kde-apps/kdenlive-16.08.3::gentoo
+# required by kde-apps/kdemultimedia-meta-16.08.3::gentoo
+# required by kde-apps/kde-apps-meta-16.08.3::gentoo
+# required by kde-apps-meta (argument)
+>=media-libs/mlt-6.2.0-r2 ffmpeg
+net-libs/libvncserver gnutls ssl threads
+# required by media-libs/mesa-12.0.1::gentoo[video_cards_radeonsi]
+# required by kde-plasma/kwin-5.8.3::gentoo
+# required by kde-plasma/plasma-workspace-5.8.3-r4::gentoo
+# required by kde-plasma/powerdevil-5.8.3::gentoo
+# required by kde-plasma/plasma-meta-5.8.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.70 video_cards_amdgpu
+# required by dev-python/ipython-3.2.1-r1::gentoo[python_targets_python2_7]
+# required by ipython (argument)
+>=dev-lang/python-2.7.12:2.7 sqlite
+# required by dev-python/ipython-3.2.1-r1::gentoo[python_targets_python3_4]
+# required by ipython (argument)
+>=dev-lang/python-3.4.5 sqlite
+# required by app-emulation/docker-1.11.0::gentoo[seccomp]
+# required by app-emulation/docker (argument)
+>=sys-libs/libseccomp-2.3.0 static-libs
+# required by sci-libs/scipy-0.16.1::gentoo
+# required by sci-libs/scikits_learn-0.17.1::gentoo
+# required by scikits_learn (argument)
+>=dev-python/numpy-1.10.4 lapack

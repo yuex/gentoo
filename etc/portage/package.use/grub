@@ -1,0 +1,4 @@
+sys-boot/grub device-mapper
+# required by net-misc/networkmanager-1.4.0-r1::gentoo[wifi]
+# required by networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.6 dbus
